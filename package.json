@@ -18,12 +18,15 @@
     "swiper": "^11.0.7",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ 
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "build:vercel": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
