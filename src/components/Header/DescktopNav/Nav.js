@@ -15,7 +15,8 @@ export default function Nav() {
                 {/* Logo & Menu */}
                 <nav className='flex items-center gap-x-5 madium:gap-x-9 h-14'>
                     {/* ---Logo--- */}
-                    <img src={process.env.PUBLIC_URL + '/images/Header/app-logo.svg'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/images/Header/app-logo.svg'}           alt="Screenshot placeholder"
+ />
 
                     {/* ---Menu--- */}
                     <ul className='flex items-center gap-5 medium:gap-x-7 h-full Child:leading-[56px] text-gray-300 tracking-tightest'>
